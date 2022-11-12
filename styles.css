@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(signup-form-fonts/Norse-Bold.otf);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+.img-container {
+    display: flex;
+    flex-direction: column;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: .5vh;
+    height: 10vh;
+    width: 100%;
+    font-size: 5.5rem;
+   
+    margin-top: 20vh;
+    padding: 16px 0;
+    opacity: 0.5;
+    
+}
+.logo-img {
+    height: 13vh;
+
+    
+}
+.logo-stuff {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    top: 7.5vh;
+    left: 13vw;
+    
+}
+.logo-text {
+    color: white;
+    font-size: 85px;
+    font-family: Norse-Bold, sans-serif;                              
+}
+.logo{
+    height: 100vh;
+    width: 50vw;
+    position: relative;
+    background-position: 0, 0;
+    background-size: cover;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+text {
+    color: white;
+    padding: 16px;
+}
+.right-items {
+    display: flex;
+    flex-direction: column;
+}
+.form-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    padding-top: 0px;
+    box-shadow: 1px 2px 2px black;
+}
+.text-container {
+    margin-top: 60px;
+}
+h2 {
+    padding-left: 35px;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 5px 2px 4px black;
+    
+}
+.form-tags {  
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    
+}
+
+input {
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+input:focus {
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 0 1px blue;
+}
+/* input:invalid {
+    border-color: red;
+    outline: none;
+    box-shadow: 0 0 1px red;
+
+} */
+
+.create-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    position: absolute;
+    
+}
+
+#submit-button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #596D48;
+    color: white;
+    box-shadow: 0,0,5px black;
+    
+}
+a {
+   color: #596D48; 
+}
